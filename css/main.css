@@ -45,7 +45,6 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	height: 110px;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	display: flex;
@@ -76,6 +75,7 @@ header nav ul li {
 	font-size: .875em;
 	padding: 0 10px;
 	display: inline;
+	flex-flow:row wrap;
 }
 header nav ul li a{
 	text-decoration: none;
@@ -117,13 +117,14 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
-	height: auto;
+	width: 100%;
 	border-top: 1px solid #eee;
+	align-items: center;
+	padding: 10px 30px;
 }
 
 .section-one h3 {
-	padding: 10px 0;
+	padding: 10px 30px;
 }
 
 .section-two {
