@@ -63,6 +63,11 @@ header h1 span {
 
 header nav {
 	padding: 46px 0;
+	width: 100%;
+	justify-content: center;
+	align-content: center;
+	line-height: 36px;
+	text-align: center;
 }
 
 header nav ul {
@@ -74,12 +79,14 @@ header nav ul li {
 	font-weight: 700;
 	font-size: .875em;
 	padding: 0 10px;
-	display: inline;
+	display:flex;
+	width: 100%;
 	flex-flow:row wrap;
 }
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
+	flex-flow: row wrap;
 }
 
 /*The widths are in a percentage!*/
