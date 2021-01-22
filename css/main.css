@@ -51,6 +51,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	text-align: center;
 }
 
 header h1 {
@@ -67,7 +68,6 @@ header nav {
 	justify-content: center;
 	align-content: center;
 	line-height: 36px;
-	text-align: center;
 }
 
 header nav ul {
@@ -82,6 +82,7 @@ header nav ul li {
 	display:flex;
 	width: 100%;
 	flex-flow:row wrap;
+	justify-content: space-around;
 }
 header nav ul li a{
 	text-decoration: none;
